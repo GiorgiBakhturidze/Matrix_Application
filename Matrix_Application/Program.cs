@@ -20,7 +20,7 @@ namespace Matrix_Application
                 int i = r.Next(0,2);
                 Console.Write(i + "   ");
             }
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
