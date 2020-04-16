@@ -15,7 +15,7 @@ namespace Matrix_Application
             Console.ReadLine();
             Random r = new Random();
 
-            here:
+             here:
                 Console.ForegroundColor = (ConsoleColor)r.Next(0,16);
                 int i = r.Next(0,2);
                 Console.Write(i + "   ");
