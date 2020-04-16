@@ -14,13 +14,13 @@ namespace Matrix_Application
             Console.WriteLine("Push Enter . . .");
             Console.ReadLine();
             Random r = new Random();
-            while (true)
-            {
+
+            here:
                 Console.ForegroundColor = (ConsoleColor)r.Next(0,16);
                 int i = r.Next(0,2);
                 Console.Write(i + "   ");
-            }
-            Console.Read();
+            goto here;
+            Console.ReadLine();
         }
     }
 }
